@@ -3,14 +3,65 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "点单"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "奈雪商城"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "取餐"
+			}
+		},
+		{
+			"path": "pages/info/index",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#cca33a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/footer/home.jpg",
+				"selectedIconPath": "static/images/footer/home_a.jpg",
+				"text": "点单"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"iconPath": "static/images/footer/shop.jpg",
+				"selectedIconPath": "static/images/footer/shop_a.jpg",
+				"text": "奈雪商城"
+			},
+			{
+				"pagePath": "pages/order/index",
+				"iconPath": "static/images/footer/order.jpg",
+				"selectedIconPath": "static/images/footer/order_a.jpg",
+				"text": "取餐"
+			},
+			{
+				"pagePath": "pages/info/index",
+				"iconPath": "static/images/footer/info.jpg",
+				"selectedIconPath": "static/images/footer/info_a.jpg",
+				"text": "我的"
+			}
+		]
 	}
 }

@@ -1,19 +1,15 @@
 <template>
 	<view class="content">
-		<MainHeader></MainHeader>
-        <!-- <image class="logo" src="../../static/logo.png"></image>
+        <image class="logo" src="../../static/logo.png"></image>
 		<view>
             <text class="title">{{title}}</text>
-        </view> -->
+        </view>
 	</view>
 </template>
 
-<script>
-	import MainHeader from '@/components/MainHeader'
-	export default{
-		components:{
-			MainHeader
-		},
+<script lang="ts">
+    import Vue from 'vue';
+	export default Vue.extend({
 		data() {
 			return {
 				title: 'Hello'
@@ -25,7 +21,7 @@
 		methods: {
 
 		}
-	};
+	});
 </script>
 
 <style>
