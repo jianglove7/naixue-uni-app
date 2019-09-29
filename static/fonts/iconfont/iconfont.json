@@ -1,0 +1,142 @@
+{
+  "id": "1428709",
+  "name": "naixue-app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "weex下的奈雪app",
+  "glyphs": [
+    {
+      "icon_id": "707130",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1107747",
+      "name": "location",
+      "font_class": "location1",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "5252927",
+      "name": "coupon",
+      "font_class": "coupon",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "6345961",
+      "name": "heart",
+      "font_class": "heart",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6345964",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "6345973",
+      "name": "order_send",
+      "font_class": "order_send",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6345974",
+      "name": "plus",
+      "font_class": "plus",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "6345979",
+      "name": "mine",
+      "font_class": "mine",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6345980",
+      "name": "reduce",
+      "font_class": "reduce",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "6345990",
+      "name": "scan",
+      "font_class": "scan",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "6345992",
+      "name": "redpacket",
+      "font_class": "redpacket",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6345994",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "6345995",
+      "name": "shoppingcart",
+      "font_class": "shoppingcart",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6345999",
+      "name": "ticket_coupon",
+      "font_class": "ticket_coupon",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6346000",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "6346012",
+      "name": "ticket_sub",
+      "font_class": "ticket_sub",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6346033",
+      "name": "admire",
+      "font_class": "admire",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "6736532",
+      "name": "user-info",
+      "font_class": "user-info",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "9140714",
+      "name": "gift",
+      "font_class": "gift",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    }
+  ]
+}

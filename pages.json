@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/dan/index",
 			"style": {
 				"navigationBarTitleText": "点单"
 			}
@@ -39,7 +39,7 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-				"pagePath": "pages/index/index",
+				"pagePath": "pages/dan/index",
 				"iconPath": "static/images/footer/home.jpg",
 				"selectedIconPath": "static/images/footer/home_a.jpg",
 				"text": "点单"
@@ -47,7 +47,7 @@
 			{
 				"pagePath": "pages/shop/index",
 				"iconPath": "static/images/footer/shop.jpg",
-				"selectedIconPath": "static/images/footer/shop_a.jpg",
+				"selectedIconPath": "static/images/footer/shop.jpg",
 				"text": "奈雪商城"
 			},
 			{
