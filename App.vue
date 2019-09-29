@@ -14,7 +14,7 @@
 
 <style>
 	/*每个页面公共css */
-	@import url("./static/fonts/iconfont/iconfont.css");
+	@import url("//at.alicdn.com/t/font_1428709_l154562g76g.css");
 	@import url("style.scss");
 	
 </style>

@@ -1,7 +1,15 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//导航tabBar页面
 		{
 			"path": "pages/dan/index",
+			"style": {
+				"navigationBarTitleText": "点单"
+			}
+		},
+		//选择店铺
+		{
+			"path": "pages/selectStore/index",
 			"style": {
 				"navigationBarTitleText": "点单"
 			}
@@ -24,7 +32,6 @@
 				"navigationBarTitleText": "我的"
 			}
 		}
-		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

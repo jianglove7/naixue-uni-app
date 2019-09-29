@@ -4,7 +4,7 @@
 		<view class="titleNview-placing"></view>
 		<view :class="['wrapper'] "><!-- , isIpx&&isIpx()?'w-ipx':'' -->
 			<view class="left" @click="goSelectStore">
-	        <text class="left-title">广州番禺万达广场店</text>
+	        <text class="left-title">广州番禺万达广场店 ></text>
 	        <view class="flex-row">
 	           <image class="left-icon" src="../../static/images/local.jpg"></image>
 	           <text class="left-text">距离您5.2km</text>
@@ -72,7 +72,7 @@
 		
 		.flex-row{
 			display: flex;
-			margin-top: 20rpx;
+			margin-top: 10rpx;
 			line-height:1.4;
 		}
 		.left-icon{

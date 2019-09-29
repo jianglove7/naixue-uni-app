@@ -34,15 +34,14 @@ export default {
 
 <style scoped>
     .nx-slider {
-        /* flex: 1; */
         width: 100%;
-        /* height: 300rpx; */
-		background-color: #aaa;
+		height: 300rpx;
 		position: relative;
     }
     .image {
         width: 100%;
         height: 300rpx;
+		overflow: hidden;
     }
     .swiper-dots {
 		display: flex;

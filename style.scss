@@ -25,6 +25,13 @@ video {
 	box-sizing: border-box;
 }
 
+
+.ellipsis{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
 .titleNview-placing {
 	height: var(--status-bar-height);
 	// padding-top: 44px;
@@ -34,4 +41,8 @@ video {
 .flex-row{
 	display: flex;
 	flex-direction: row;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
 }

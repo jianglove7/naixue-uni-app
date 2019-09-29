@@ -117,9 +117,10 @@
       padding-right:20rpx;
       padding-top:32rpx;
       padding-bottom:32rpx;
+	  line-height: 30rpx;
     }
     .menu-text{
-      font-size: 22rpx;
+      font-size: 24rpx;
       color: #a5a5a5;
     }
     .menu-active{

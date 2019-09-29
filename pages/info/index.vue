@@ -1,7 +1,7 @@
 <template>
 	<view class="app-container">
 		<scroll-view class="content" scroll-y="true">
-			<view class="wrap header">
+			<view class="wrap header" style="background-position: 0% 0%; background-size: 100% 100%; background-repeat: no-repeat; background-image:url(../../static/images/bg.jpg);">
 				<view class="hd">
 					<image class="user-img" src="../../static/images/avast.jpg"></image>
 					<view class="user-name-wrap">
@@ -28,9 +28,16 @@
 				</view>
 				
 			</view>
-			<view class="wrap">
+			<view class="wrap func-list">
+				<view class="hd">
+					<view class="pre"></view>
+					<text class="hd-tit">我的服务</text>
+				</view>
 				<view class="list">
-					<view class="item"></view>
+					<view v-for="(item,index) in systemFuncList" :key="index" class="item">
+						<image :src="item.img" class="image"></image>
+						<view><text class="text">{{item.name}}</text></view>
+					</view>
 				</view>
 			</view>
         </scroll-view>
@@ -55,6 +62,7 @@
 		},
 		created(){
 			this.systemFuncList = systemFuncList
+			console.log(systemFuncList)
 		},
 		methods: {
 
@@ -77,12 +85,15 @@
 		align-items: center;
 	}
 	.content{
-		flex: 1;
+		height: 100%;
 		background-color: #f7f7f7;
 	}
 	.wrap{
+		overflow: hidden;
 		background-color: #fff;
-		margin: 10rpx;
+		margin-left: 10rpx;
+		margin-right: 10rpx;
+		margin-bottom: 10rpx;
 	}
 	
 	.hd{
@@ -112,6 +123,7 @@
 			justify-content: space-around;
 			margin-bottom: 60rpx;
 			.item{
+				
 				.hd{
 					line-height: 50rpx;
 				}
@@ -140,6 +152,47 @@
 		}
 		.text{
 			font-size: 24rpx;
+		}
+	}
+	
+	.func-list{
+		.hd{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			padding: 50rpx 20rpx;
+			.pre{
+				width: 10rpx;
+				height: 24rpx;
+				background-color: $main-color;
+				margin-right: 20rpx;
+			}
+			.hd-tit{
+				font-size: 26rpx;
+			}
+		}
+		
+		.list{
+			display: flex;
+			flex-direction:row;
+			justify-content: flex-start;
+			flex-wrap:wrap;
+			align-items:flex-start;
+			.item{
+				display: flex;                                                                                        
+				flex-direction: column;
+				align-items: center;
+				width: 25%;
+				margin-bottom: 80rpx;
+				.image{
+					width: 60rpx;
+					height: 60rpx;
+					margin-bottom: 30rpx;
+				}
+				.text{
+					font-size: 28rpx;
+				}
+			}
 		}
 	}
 	
